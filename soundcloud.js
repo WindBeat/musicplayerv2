@@ -20,7 +20,7 @@ SC.initialize({
       
       	$('#next').click(function(e) {
     		e.preventDefault();
-	 	sound.unload(); 
+	 	sound.removeSound(); 
         });
     });        
   });
