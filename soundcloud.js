@@ -10,7 +10,7 @@ function playSomeMusic(myGenre) {
       SC.stream(track_url, function(sound) {
         $('#play').click(function(e) {
           e.preventDefault();
-          sound.start();
+          sound.play();
 
       });    
     });        
