@@ -16,7 +16,12 @@ SC.initialize({
           e.preventDefault();
           sound.togglePause();
 
-      });    
+      });
+      
+      	$('#next').click(function(e) {
+    		e.preventDefault();
+	 	sound.destroy(); 
+        });
     });        
   });
 };
