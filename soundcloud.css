@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+body {
+	background-image:url("http://fc05.deviantart.net/fs71/i/2013/218/c/f/music_bass___wallpaper_1920x1080_by_tobiasermisch-d6gx0ac.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	color: #00cc99;
+}
+
+ul {
+	display: inline-block;
+	padding-right: 550px;
+	padding-top: 100px;
+}
+
+li {
+
+	font-size: 20px;
+	background-color: #2B3D4F;
+	height: 30px;
+	width: 150px;
+	border: 1px solid #00cc99;
+	text-align: center;
+	padding-top:10px;
+	font-family: 'Boogaloo', cursive;
+}
+
+li:hover{
+	background-color: #070B0F
+}
+
+h1 {
+    font-size: 55px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Boogaloo', cursive;
+	color: #00cc99;
+}
+
+#player {
+	margin-top: -375px;
+	margin-left: 500px;
+	border-radius: 20px;
+	width: 461px;
+	height: 330px;
+	background-image: -o-linear-gradient(-90deg, #EBF1F2 50%, #D7E2E8 100%);
+	background-image: -moz-linear-gradient(-90deg, #EBF1F2 50%, #D7E2E8 100%);
+	background-image: -webkit-linear-gradient(-90deg, #EBF1F2 50%, #D7E2E8 100%);
+	background-image: -ms-linear-gradient(-90deg, #EBF1F2 50%, #D7E2E8 100%);
+	background-image: linear-gradient(-180deg, #EBF1F2 50%, #D7E2E8 100%);
+	border: 1px solid rgba(0,0,0,0.10);
+	-moz-box-shadow:    0px 20px 20px 0px rgba(0,0,0,0.10), inset 0px -4px 0px 0px rgba(91,109,116,0.25), inset 0px -5px 0px 0px rgba(255,255,255,0.25), inset 0px 1px 0px 0px rgba(255,255,255,0.50);
+	-webkit-box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.10), inset 0px -4px 0px 0px rgba(91,109,116,0.25), inset 0px -5px 0px 0px rgba(255,255,255,0.25), inset 0px 1px 0px 0px rgba(255,255,255,0.50);
+	box-shadow:         0px 20px 20px 0px rgba(0,0,0,0.10), inset 0px -4px 0px 0px rgba(91,109,116,0.25), inset 0px -5px 0px 0px rgba(255,255,255,0.25), inset 0px 1px 0px 0px rgba(255,255,255,0.50);
+}
+
+#container {
+	text-align: center;
+}
+
+#replay {
+	background: url('images/controls.png') no-repeat -147px -25px;
+	width: 74px;
+	height: 75px;
+	float: left;
+	margin-right: 7px;
+	margin-top: 10px;
+}
+
+#play {
+	background: url('images/controls.png') no-repeat -233px -15px;
+	width: 96px;
+	height: 97px;
+	float: left;
+}
+
+#next {
+	background: url('images/controls.png') no-repeat -341px -25px;
+	width: 74px;
+	height: 75px;
+	float:left;
+	margin-left: 7px;
+	margin-top: 10px;
+}
+
+#controls {
+	display: inline-block;
+	margin-top: 215px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Randomizer</title>
+	<link rel="stylesheet" type="text/css" href="soundcloud.css">
+	<script type="text/javascript" src="http://connect.soundcloud.com/sdk.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet' type='text/css'>
+</head>
+<body onload="playSomeMusic('electronic')">
+	<div id="title">
+		<h1>Music Randomizer</h1>
+	</div>
+	<div id="container">
+		<div id="musicgenres">
+			<ul>
+  				<li><a href="#" onclick="playSomeMusic('dance')">Dance</a></li>
+  				<li><a href="#" onclick="playSomeMusic('world')">World</a></li>
+  				<li><a href="#" onclick="playSomeMusic('rock')">Rock</a></li>
+  				<li><a href="#" onclick="playSomeMusic('electronic')">Electronic<a></li>
+  				<li><a href="#" onclick="playSomeMusic('trance')">Trance</a><a></li>
+  				<li><a href="#" onclick="playSomeMusic('piano')">Piano<a></li>
+  				<li><a href="#" onclick="playSomeMusic('pop')">Pop</li>
+  				<li><a href="#" onclick="playSomeMusic('r&b')">R & B<a></li>
+  				<li><a href="#" onclick="playSomeMusic('jazz')">Jazz<a></li>
+  				<li><a href="#" onclick="playSomeMusic('dubstep')">Dubstep<a></li>
+  			</ul>	
+		</div>
+
+		<div id="player">
+			<div id="controls">
+				<div id="replay"></div>
+				<div id="play"></div>
+				<div id="next"></div>
+			</div>	
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="soundcloud.js"></script>
+	<script src="soundmanager2.js"></script>
+</body>
+</html>
