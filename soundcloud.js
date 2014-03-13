@@ -18,7 +18,7 @@ SC.initialize({
 
       });
       
-      	$('#next').click(function(e) {
+      	$('.genre').click(function(e) {
     		e.preventDefault();
 	 	sound.destruct(); 
         });
