@@ -24,4 +24,5 @@ SC.initialize({
         });
     });        
   });
+  console.log(myGenre);
 }; 
