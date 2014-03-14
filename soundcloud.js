@@ -20,7 +20,8 @@ SC.initialize({
       
       	$('.genre').click(function(e) {
     		e.preventDefault();
-	 	sound.destruct(); 
+	 	sound.destruct();
+	 	console.log(myGenre);
         });
     });        
   });
