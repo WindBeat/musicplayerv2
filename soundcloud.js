@@ -26,4 +26,4 @@ SC.initialize({
   });
 };
 
-$("#next").on("click", function(){ playMusic(myGenre); };
+$("#next").on("click", function playMusic(myGenre);
