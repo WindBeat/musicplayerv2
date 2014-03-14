@@ -26,4 +26,3 @@ SC.initialize({
   });
 };
 
-$("#next").on("click", function playMusic(myGenre);
