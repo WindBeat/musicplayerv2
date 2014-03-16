@@ -10,7 +10,7 @@ SC.initialize({
     //Pulls 50 songs and then randomly chooses one
       var random = Math.floor(Math.random() * 49);
       var track_url = tracks[random].stream_url;
-      //Displays the sound player
+      //plays the sound
       SC.stream(track_url, function(sound) {
         $('#play').click(function(e) {
           e.preventDefault();
